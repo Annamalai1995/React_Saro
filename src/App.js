@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes } from "react-router-dom";
+import { SamplebootstrapExample } from "./BootstrapSample";
+import Fun1, { Orderlist } from "./funcion";
+import { Homepage } from "./Mainpage";
+import { StudentDetails } from "./Tablecreationcss";
+import { Operator } from "./TernaryOper";
+import { UseState2 } from "./UseStateNumber";
+import { Usingobotstrap } from "./usingBootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <>
+    {/* <Orderlist/>
+
+    <Fun1/> */}
+    {/* <UseState2/>
+    <SamplebootstrapExample/> */}
+    {/* <Usingobotstrap/> */}
+    {/* <Operator/>
+    <Parameter where="./sam.jpeg"uyram="500px" agalam="200px"/>
+     */}
+     <StudentDetails/>
+    <Homepage/>
+
+
+
+    </>
+
   );
 }
 
